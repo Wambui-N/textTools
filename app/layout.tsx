@@ -6,7 +6,7 @@ import "./globals.css";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-5HB5WPKXNE";
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-3860655153966044";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
