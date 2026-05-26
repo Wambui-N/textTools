@@ -24,6 +24,8 @@ export default function TextToSlugPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Type or paste your title or phrase into the input field.",
         "The slug is generated instantly as you type.",

@@ -31,6 +31,8 @@ export default function CharacterCounterPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Type or paste your text into the text area.",
         "The character count updates instantly as you type.",

@@ -24,6 +24,8 @@ export default function RemoveLineBreaksPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste your text (with unwanted line breaks) into the input area.",
         "Choose what to replace line breaks with: a space, nothing, a comma, or a custom character.",

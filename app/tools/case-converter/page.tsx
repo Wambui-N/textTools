@@ -31,6 +31,8 @@ export default function CaseConverterPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste or type your text into the text area.",
         "Click one of the eight case conversion buttons.",

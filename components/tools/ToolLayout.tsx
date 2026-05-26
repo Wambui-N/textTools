@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { FAQItem } from "@/types/tools";
+import type { FAQItem, WhatIs, UseCase } from "@/types/tools";
 import { RelatedTools } from "./RelatedTools";
 import { AdBanner } from "@/components/ads/AdBanner";
 import { AdSidebar } from "@/components/ads/AdSidebar";
@@ -13,7 +13,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Shield } from "lucide-react";
+import { Shield, BookOpen } from "lucide-react";
 
 interface ToolLayoutProps {
   slug: string;
@@ -24,6 +24,8 @@ interface ToolLayoutProps {
   featureList?: string;
   howToUse?: string[];
   features?: string[];
+  whatIs?: WhatIs;
+  useCases?: UseCase[];
   children: React.ReactNode;
 }
 
@@ -36,6 +38,8 @@ export function ToolLayout({
   featureList,
   howToUse,
   features,
+  whatIs,
+  useCases,
   children,
 }: ToolLayoutProps) {
   const belowSlot = process.env.NEXT_PUBLIC_AD_SLOT_BELOW || "";
@@ -66,6 +70,41 @@ export function ToolLayout({
         <p className="mb-6 text-base leading-relaxed" style={{ color: "var(--text-secondary)" }}>
           {description}
         </p>
+
+        {/* What is X? section */}
+        {whatIs && (
+          <section className="mb-6">
+            <h2
+              className="mb-3 text-lg font-semibold"
+              style={{ fontFamily: "var(--font-heading)", color: "var(--text-primary)" }}
+            >
+              What is a {title}?
+            </h2>
+            {/* Definition callout */}
+            <div
+              className="mb-3 flex items-start gap-3 rounded-lg border-l-4 px-4 py-3"
+              style={{
+                backgroundColor: "var(--accent-subtle)",
+                borderLeftColor: "var(--accent)",
+              }}
+            >
+              <BookOpen
+                className="mt-0.5 h-4 w-4 shrink-0"
+                style={{ color: "var(--accent)" }}
+              />
+              <p
+                className="text-sm font-medium leading-relaxed"
+                style={{ color: "var(--accent)" }}
+              >
+                {whatIs.definition}
+              </p>
+            </div>
+            {/* Explanatory paragraph */}
+            <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
+              {whatIs.explanation}
+            </p>
+          </section>
+        )}
 
         {/* Leaderboard ad */}
         <AdBanner className="mb-6" />
@@ -133,6 +172,43 @@ export function ToolLayout({
                     </li>
                   ))}
                 </ul>
+              </section>
+            )}
+
+            {/* Use cases grid */}
+            {useCases && useCases.length > 0 && (
+              <section className="mt-10">
+                <h2
+                  className="mb-4 text-xl font-semibold"
+                  style={{ fontFamily: "var(--font-heading)", color: "var(--text-primary)" }}
+                >
+                  Common Use Cases
+                </h2>
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                  {useCases.map((uc, i) => (
+                    <div
+                      key={i}
+                      className="rounded-lg border p-4"
+                      style={{
+                        backgroundColor: "var(--bg-tool)",
+                        borderColor: "var(--border)",
+                      }}
+                    >
+                      <p
+                        className="mb-2 text-sm font-semibold"
+                        style={{ color: "var(--text-primary)" }}
+                      >
+                        {uc.title}
+                      </p>
+                      <p
+                        className="text-xs leading-relaxed"
+                        style={{ color: "var(--text-secondary)" }}
+                      >
+                        {uc.scenario}
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </section>
             )}
 

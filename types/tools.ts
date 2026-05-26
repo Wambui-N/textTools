@@ -5,6 +5,16 @@ export interface FAQItem {
   answer: string;
 }
 
+export interface WhatIs {
+  definition: string;
+  explanation: string;
+}
+
+export interface UseCase {
+  title: string;
+  scenario: string;
+}
+
 export interface ToolDefinition {
   slug: string;
   title: string;
@@ -18,4 +28,6 @@ export interface ToolDefinition {
   ogTitle?: string;
   metaDescription?: string;
   featureList?: string;
+  whatIs?: WhatIs;
+  useCases?: UseCase[];
 }

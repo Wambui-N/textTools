@@ -31,6 +31,8 @@ export default function WordCounterPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste or type your text into the text area above.",
         "Word count, character count, sentences, and paragraphs update instantly as you type.",

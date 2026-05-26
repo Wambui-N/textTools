@@ -24,6 +24,8 @@ export default function FindAndReplacePage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste your text into the main text area.",
         "Type the word or phrase you want to find in the 'Find' field — matches are counted in real time.",

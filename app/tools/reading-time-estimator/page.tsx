@@ -24,6 +24,8 @@ export default function ReadingTimePage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste or type your text into the text area.",
         "Reading time estimates update instantly.",

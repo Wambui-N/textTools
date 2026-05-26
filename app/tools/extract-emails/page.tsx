@@ -24,6 +24,8 @@ export default function ExtractEmailsPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste any text, email body, or webpage source into the input area.",
         "The tool automatically extracts all valid email addresses.",

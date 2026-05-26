@@ -24,6 +24,8 @@ export default function SortLinesPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste your list into the input area (one item per line).",
         "Select your sort mode: A→Z, Z→A, shortest, longest, reverse, or random.",

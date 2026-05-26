@@ -24,6 +24,8 @@ export default function RemoveExtraSpacesPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste your text into the input area.",
         "Choose which types of spaces to remove using the checkboxes.",

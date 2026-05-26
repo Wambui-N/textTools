@@ -24,6 +24,8 @@ export default function RemoveDuplicateLinesPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste your list or text (one item per line) into the input area.",
         "Configure options: case sensitivity, whitespace trimming, and blank line removal.",

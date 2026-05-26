@@ -24,6 +24,8 @@ export default function ReverseTextPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Type or paste your text into the input area.",
         "Select the reversal mode you want to use.",

@@ -24,6 +24,8 @@ export default function TextDiffPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste the original (old) version of your text in the left box.",
         "Paste the revised (new) version in the right box.",

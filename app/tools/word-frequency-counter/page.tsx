@@ -24,6 +24,8 @@ export default function WordFrequencyPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Paste your text into the input area.",
         "Enable or disable stop word filtering to show only meaningful content words.",

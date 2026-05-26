@@ -24,6 +24,8 @@ export default function LoremIpsumPage() {
       faqs={tool.faqs}
       relatedSlugs={tool.relatedSlugs}
       featureList={tool.featureList}
+      whatIs={tool.whatIs}
+      useCases={tool.useCases}
       howToUse={[
         "Select whether you want words, sentences, or paragraphs.",
         "Enter the quantity you need (1–100).",
