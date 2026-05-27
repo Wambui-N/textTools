@@ -28,6 +28,17 @@ export function Footer() {
         </div>
         <p className="mt-4 text-center text-xs" style={{ color: "var(--text-muted)" }}>
           © {new Date().getFullYear()} ShelfCue. All tools are free. No account required. Your text never leaves your browser.
+          {" "}Built by{" "}
+          <a
+            href="https://madewithmake.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:opacity-80"
+            style={{ color: "var(--text-muted)" }}
+          >
+            madewithmake
+          </a>
+          .
         </p>
         <p className="mt-2 text-center text-xs" style={{ color: "var(--text-muted)" }}>
           We use cookies for analytics and advertising.{" "}

@@ -53,8 +53,8 @@ export default function AboutPage() {
         </h2>
         <p>
           Questions, suggestions, or feedback? Reach us at{" "}
-          <a href="mailto:hello@shelfcue.com" className="underline" style={{ color: "var(--accent)" }}>
-            hello@shelfcue.com
+          <a href="mailto:hello@mail.madewithmake.com" className="underline" style={{ color: "var(--accent)" }}>
+            hello@mail.madewithmake.com
           </a>
           .
         </p>

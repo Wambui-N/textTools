@@ -76,7 +76,7 @@ function OrganizationSchema() {
     description: "ShelfCue provides free online text tools for writers, developers, and marketers.",
     contactPoint: {
       "@type": "ContactPoint",
-      email: "hello@shelfcue.com",
+      email: "hello@mail.madewithmake.com",
       contactType: "customer support",
     },
   };

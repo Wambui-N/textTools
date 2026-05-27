@@ -326,7 +326,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <a
-                href="mailto:privacy@shelfcue.com"
+                href={`mailto:${CONTACT_PRIVACY}`}
                 className="underline"
                 style={linkStyle}
               >
