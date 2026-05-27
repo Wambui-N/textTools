@@ -28,7 +28,6 @@ export const metadata: Metadata = {
       "Free online text tools for writers, developers, and marketers. No signup. Runs in your browser.",
     url: SITE_URL,
     siteName: "ShelfCue",
-    images: [{ url: "/og/default.png", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -72,7 +71,7 @@ function OrganizationSchema() {
     "@type": "Organization",
     name: "ShelfCue",
     url: SITE_URL,
-    logo: `${SITE_URL}/og/default.png`,
+    logo: `${SITE_URL}/opengraph-image`,
     description: "ShelfCue provides free online text tools for writers, developers, and marketers.",
     contactPoint: {
       "@type": "ContactPoint",

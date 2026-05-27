@@ -22,7 +22,6 @@ export const metadata: Metadata = {
     siteName: "ShelfCue",
     type: "website",
     url: SITE_URL,
-    images: [{ url: "/og/default.png", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image" },
 };

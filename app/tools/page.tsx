@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     description: "Browse all 31 free online text tools. No signup, all processing in your browser.",
     url: `${SITE_URL}/tools`,
     siteName: "ShelfCue",
-    images: [{ url: "/og/default.png", width: 1200, height: 630 }],
     type: "website",
   },
   alternates: { canonical: `${SITE_URL}/tools` },

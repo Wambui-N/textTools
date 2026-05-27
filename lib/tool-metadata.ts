@@ -16,7 +16,6 @@ export function buildToolMetadata(tool: ToolDefinition): Metadata {
       description: tool.metaDescription,
       url: canonical,
       siteName: "ShelfCue",
-      images: [{ url: "/og/default.png", width: 1200, height: 630 }],
       type: "website",
     },
     twitter: {

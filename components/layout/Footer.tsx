@@ -9,7 +9,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4">
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
           <p className="text-sm" style={{ fontFamily: "var(--font-heading)", color: "var(--text-primary)" }}>
-            ShelfCue: Clean text tools for everyday work
+            <span style={{ color: "var(--text-primary)" }}>shelf</span><em style={{ color: "var(--accent)", fontStyle: "italic" }}>cue</em>: Clean text tools for everyday work
           </p>
           <nav className="flex items-center gap-6">
             <Link href="/tools" className="text-xs hover:underline" style={{ color: "var(--text-muted)" }}>

@@ -21,9 +21,10 @@ export function Header() {
       }}
     >
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2 font-semibold" style={{ fontFamily: "var(--font-heading)", color: "var(--text-primary)" }}>
-          <Wrench className="h-4 w-4" style={{ color: "var(--accent)" }} />
-          <span className="text-lg">ShelfCue</span>
+        <Link href="/" className="flex items-center gap-2 font-medium" style={{ fontFamily: "var(--font-heading)" }}>
+          <span className="text-lg tracking-wide">
+            <span style={{ color: "var(--text-primary)" }}>shelf</span><em style={{ color: "var(--accent)", fontStyle: "italic" }}>cue</em>
+          </span>
         </Link>
 
         <nav className="flex items-center gap-6">
