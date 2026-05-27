@@ -5,10 +5,10 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
   title: "All Text Tools - Free Online Text Processing Tools",
-  description: "Browse all 15 free online text tools: word counter, character counter, case converter, find and replace, text diff checker, and more. No signup required.",
+  description: "Browse all 31 free online text tools: word counter, character counter, case converter, find and replace, text diff checker, binary converter, Morse code, and more. No signup required.",
   openGraph: {
     title: "All Text Tools | ShelfCue",
-    description: "Browse all 15 free online text tools. No signup, no ads, all processing in your browser.",
+    description: "Browse all 31 free online text tools. No signup, all processing in your browser.",
     url: `${SITE_URL}/tools`,
     siteName: "ShelfCue",
     images: [{ url: "/og/default.png", width: 1200, height: 630 }],
@@ -28,7 +28,7 @@ export default function ToolsPage() {
           All Text Tools
         </h1>
         <p className="text-base" style={{ color: "var(--text-secondary)" }}>
-          15 free tools for counting, cleaning, converting, and analyzing text. No signup required.
+          31 free tools for counting, cleaning, converting, and analyzing text. No signup required.
         </p>
       </div>
       <ToolsIndex />

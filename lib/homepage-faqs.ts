@@ -1,11 +1,11 @@
 export const HOMEPAGE_FAQS = [
   {
     q: "What text tools does ShelfCue offer?",
-    a: "ShelfCue currently offers 15 free text tools: word counter, character counter, case converter, remove duplicate lines, sort lines, remove extra spaces, remove line breaks, find and replace, text diff checker, reading time estimator, lorem ipsum generator, word frequency counter, extract emails, reverse text, and text to slug. New tools are added regularly.",
+    a: "ShelfCue currently offers 31 free text tools covering counting, cleaning, transformation, and encoding - including word counter, case converter, text diff checker, ROT13, binary converter, Morse code, and more. Browse the full list at /tools. New tools are added regularly.",
   },
   {
     q: "Is ShelfCue really free?",
-    a: "Yes. All 15 tools are completely free with no hidden limits, premium tiers, or paywalls. ShelfCue is supported by Google AdSense advertising. There is no free trial that expires, no feature locked behind a subscription, and no limit on how much text you can process.",
+    a: "Yes. All 31 tools are completely free with no hidden limits, premium tiers, or paywalls. ShelfCue is supported by Google AdSense advertising. There is no free trial that expires, no feature locked behind a subscription, and no limit on how much text you can process.",
   },
   {
     q: "How is my privacy protected when I use ShelfCue?",

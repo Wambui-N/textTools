@@ -43,6 +43,23 @@ const PROBLEM_DESCRIPTIONS: Record<string, string> = {
   "extract-emails": "Got email addresses buried in a wall of text? Extract every address and get a clean, deduplicated list.",
   "reverse-text": "Need backwards text for a puzzle, post, or test? Reverse characters, words, or generate upside-down Unicode text.",
   "text-to-slug": "Turning a blog title into a URL? Generate a clean, lowercase, hyphenated slug ready to paste into your CMS.",
+  // Batch 1
+  "remove-html-tags": "Copied HTML source and now the tags are cluttering your document? Strip all markup and keep only the clean text.",
+  "remove-punctuation": "Need raw words for a word cloud or NLP pipeline? Remove all punctuation in one click, with an option to keep sentence endings.",
+  "remove-numbers": "Scraped data full of rogue digits? Delete every number from your text and collapse the gaps they leave.",
+  "remove-line-numbers": "Copied numbered text and the prefixes followed along? Strip leading line numbers in one pass.",
+  "count-sentences": "Wondering if your writing is too dense? Count sentences, get average sentence length, and spot readability issues instantly.",
+  "count-paragraphs": "Checking your article structure? Count paragraphs and see how long each one is on average.",
+  "count-vowels-consonants": "Curious about the sound and rhythm of your writing? Count every vowel and consonant with percentages.",
+  "count-word-occurrences": "Using a keyword too often - or not enough? Count exactly how many times any word or phrase appears.",
+  "add-line-numbers": "Need to share code or text where reviewers can reference line numbers? Prefix every line in your chosen format.",
+  "wrap-text": "Long lines breaking your email or terminal? Hard-wrap text at any column width to fit any format.",
+  "repeat-text": "Need 50 copies of the same line for test data or a layout mockup? Repeat any text N times with a chosen separator.",
+  "rot13": "Hiding a spoiler or puzzle answer? Encode and decode ROT13 instantly - the same button does both.",
+  "text-to-binary": "Want to see what your text looks like in binary? Convert every character to its 8-bit ASCII representation.",
+  "binary-to-text": "Got space-separated binary groups and need to read them? Decode them back to text with automatic error checking.",
+  "morse-code-converter": "Encoding a message in Morse code or decoding one you received? Translate both ways using the ITU standard.",
+  "number-to-words": "Need to spell out a number for a cheque or legal document? Convert any integer up to 999 million into English words.",
 };
 
 export function HomepageToolsGrid() {

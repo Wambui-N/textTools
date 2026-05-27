@@ -43,7 +43,7 @@ export default function AboutPage() {
           Always free
         </h2>
         <p>
-          All 15 tools on ShelfCue are free and will remain free. The site is supported by Google AdSense advertising. If you find the tools useful, simply using them and occasionally engaging with an ad keeps the site running.
+          All tools on ShelfCue are free and will remain free. The site is supported by Google AdSense advertising. If you find the tools useful, simply using them and occasionally engaging with an ad keeps the site running.
         </p>
         <h2
           className="text-xl font-semibold pt-2"

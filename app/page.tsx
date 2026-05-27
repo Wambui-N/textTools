@@ -19,11 +19,11 @@ import {
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "ShelfCue - 15 Free Online Text Tools | Word Counter, Case Converter & More",
+  title: "ShelfCue - 31 Free Online Text Tools | Word Counter, Case Converter & More",
   description:
-    "Free online text tools for writers, developers, and marketers. Word counter, character counter, case converter, remove duplicates, text diff checker, and 10 more. No signup. Runs in your browser.",
+    "Free online text tools for writers, developers, and marketers. Word counter, character counter, case converter, remove duplicates, text diff checker, and 26 more. No signup. Runs in your browser.",
   openGraph: {
-    title: "ShelfCue - 15 Free Online Text Tools",
+    title: "ShelfCue - 31 Free Online Text Tools",
     description:
       "Free online text tools for writers, developers, and marketers. No signup. Runs in your browser.",
     url: SITE_URL,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ShelfCue - 15 Free Online Text Tools",
+    title: "ShelfCue - 31 Free Online Text Tools",
     description:
       "Word counter, character counter, case converter, and 12 more. No signup. 100% browser-based.",
   },
@@ -127,7 +127,7 @@ export default function HomePage() {
         className="border-b py-20"
         style={{ borderColor: "var(--border)", backgroundColor: "var(--bg-primary)" }}
       >
-        <div className="mx-auto max-w-3xl px-4 text-center">
+        <div className="mx-auto max-w-4xl px-4 text-center">
           {/* Eyebrow */}
           <div
             className="mb-5 inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium"
@@ -137,7 +137,7 @@ export default function HomePage() {
               color: "var(--accent)",
             }}
           >
-            15 free tools · No signup required · 100% browser-based
+            {tools.length} free tools · No signup required · 100% browser-based
           </div>
 
           {/* H1 */}
@@ -166,7 +166,7 @@ export default function HomePage() {
               className="inline-flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "var(--accent)", color: "#fff" }}
             >
-              Browse all 15 tools
+              Browse all {tools.length} tools
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
@@ -193,7 +193,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl px-4 py-6">
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
             {[
-              { stat: "15", label: "Free tools", sub: "forever" },
+              { stat: String(tools.length), label: "Free tools", sub: "forever" },
               { stat: "0", label: "Servers", sub: "text never transmitted" },
               { stat: "0", label: "Accounts", sub: "no signup required" },
               { stat: "100%", label: "Browser-based", sub: "works offline" },
@@ -402,7 +402,7 @@ export default function HomePage() {
                 icon: MousePointerClick,
                 title: "No friction",
                 body: "No account. No email. No password. No free trial that expires. No feature locked behind a subscription. Open a tool, use it, close the tab.",
-                detail: "ShelfCue is funded by Google AdSense advertising. That is the only trade-off: you may see an ad on the page. In exchange you get 15 fully functional text tools, permanently free, with no other strings attached.",
+                detail: "ShelfCue is funded by Google AdSense advertising. That is the only trade-off: you may see an ad on the page. In exchange you get fully functional text tools, permanently free, with no other strings attached.",
               },
             ].map(({ icon: Icon, title, body, detail }) => (
               <div
@@ -465,7 +465,7 @@ export default function HomePage() {
               The suite covers the most common text tasks: counting words and characters for platform limits and assignments, converting text case for code and headlines, cleaning up whitespace and line breaks from copy-pasted documents, sorting and deduplicating lists, finding and replacing text across long documents, comparing two versions of a text side by side, analysing word frequency for SEO and writing quality, and generating placeholder Lorem Ipsum text for design mockups.
             </p>
             <p>
-              All 15 tools are permanently free. ShelfCue is supported by advertising. Open any tool, use it, and come back whenever you need it. No login. No paywall. No data collection beyond standard analytics.
+              All {tools.length} tools are permanently free. ShelfCue is supported by advertising. Open any tool, use it, and come back whenever you need it. No login. No paywall. No data collection beyond standard analytics.
             </p>
           </div>
         </div>
