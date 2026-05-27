@@ -8,6 +8,7 @@ import { GA_MEASUREMENT_ID, ADSENSE_PUBLISHER_ID } from "@/lib/legal";
 import "./globals.css";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
+const GSC_VERIFICATION = process.env.NEXT_PUBLIC_GSC_VERIFICATION || "";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -24,6 +25,10 @@ export const metadata: Metadata = {
     url: SITE_URL,
   },
   twitter: { card: "summary_large_image" },
+  // Populated once you get the verification code from Google Search Console
+  ...(GSC_VERIFICATION && {
+    verification: { google: GSC_VERIFICATION },
+  }),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
