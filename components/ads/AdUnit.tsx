@@ -17,7 +17,7 @@ interface AdUnitProps {
   minHeight?: number;
 }
 
-export function AdUnit({ slot, format = "auto", className = "", minHeight = 90 }: AdUnitProps) {
+export function AdUnit({ slot, format = "auto", className = "", minHeight = 50 }: AdUnitProps) {
   const [consented, setConsented] = useState(false);
 
   useEffect(() => {
