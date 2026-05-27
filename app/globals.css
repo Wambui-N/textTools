@@ -2,17 +2,17 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #FAFAF9;
-  --bg-secondary: #F5F4F0;
+  --bg-primary: #F5FDF3;
+  --bg-secondary: #EAFDE7;
   --bg-tool: #FFFFFF;
-  --text-primary: #1A1917;
-  --text-secondary: #6B6862;
-  --text-muted: #A09D98;
-  --accent: #D4622A;
-  --accent-hover: #B8501F;
-  --accent-subtle: #FBF0EB;
-  --border: #E8E5E0;
-  --border-strong: #D0CCC5;
+  --text-primary: #1A2B18;
+  --text-secondary: #4A6642;
+  --text-muted: #88A882;
+  --accent: #72BF01;
+  --accent-hover: #3A7817;
+  --accent-subtle: #EAFDE7;
+  --border: #D0EAC8;
+  --border-strong: #AECFA4;
 
   --font-heading: 'Fraunces', Georgia, serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
@@ -20,17 +20,17 @@
 }
 
 .dark {
-  --bg-primary: #111110;
-  --bg-secondary: #1A1917;
-  --bg-tool: #1A1917;
-  --text-primary: #F5F4F0;
-  --text-secondary: #A09D98;
-  --text-muted: #6B6862;
-  --accent: #D4622A;
-  --accent-hover: #E0733A;
-  --accent-subtle: #2A1A10;
-  --border: #2C2B28;
-  --border-strong: #3A3836;
+  --bg-primary: #00312D;
+  --bg-secondary: #003D37;
+  --bg-tool: #004A42;
+  --text-primary: #F0FDF4;
+  --text-secondary: #A7C4A0;
+  --text-muted: #6A9A62;
+  --accent: #BFF102;
+  --accent-hover: #72BF01;
+  --accent-subtle: #0A2B1A;
+  --border: #0F4A3F;
+  --border-strong: #1A5E51;
 }
 
 @theme inline {
