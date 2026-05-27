@@ -12,7 +12,7 @@ export function CharacterCounterTool() {
 
   return (
     <div className="space-y-4">
-      <div className="relative">
+      <div className="space-y-1">
         <Textarea
           placeholder="Paste or type your text here..."
           className="min-h-48 resize-y text-sm"
@@ -21,7 +21,7 @@ export function CharacterCounterTool() {
           onChange={(e) => setText(e.target.value)}
         />
         {text && (
-          <div className="absolute right-2 top-2">
+          <div className="flex justify-end">
             <ClearButton onClear={() => setText("")} />
           </div>
         )}

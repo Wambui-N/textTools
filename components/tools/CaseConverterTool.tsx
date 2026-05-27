@@ -30,7 +30,7 @@ export function CaseConverterTool() {
 
   return (
     <div className="space-y-4">
-      <div className="relative">
+      <div className="space-y-1">
         <Textarea
           placeholder="Paste or type your text here..."
           className="min-h-48 resize-y text-sm"
@@ -39,8 +39,8 @@ export function CaseConverterTool() {
           onChange={(e) => setText(e.target.value)}
         />
         {text && (
-          <div className="absolute right-2 top-2 flex gap-1">
-            {done && <span className="self-center text-xs" style={{ color: "var(--accent)" }}>Done ✓</span>}
+          <div className="flex items-center justify-end gap-2">
+            {done && <span className="text-xs" style={{ color: "var(--accent)" }}>Done ✓</span>}
             <ClearButton onClear={() => setText("")} />
           </div>
         )}

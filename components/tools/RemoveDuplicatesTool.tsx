@@ -28,7 +28,7 @@ export function RemoveDuplicatesTool() {
 
   return (
     <div className="space-y-4">
-      <div className="relative">
+      <div className="space-y-1">
         <Textarea
           placeholder="Paste your list here (one item per line)..."
           className="min-h-48 resize-y text-sm"
@@ -37,7 +37,7 @@ export function RemoveDuplicatesTool() {
           onChange={(e) => { setInput(e.target.value); setOutput(""); }}
         />
         {input && (
-          <div className="absolute right-2 top-2">
+          <div className="flex justify-end">
             <ClearButton onClear={() => { setInput(""); setOutput(""); }} />
           </div>
         )}

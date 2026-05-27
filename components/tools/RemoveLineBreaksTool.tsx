@@ -29,7 +29,7 @@ export function RemoveLineBreaksTool() {
 
   return (
     <div className="space-y-4">
-      <div className="relative">
+      <div className="space-y-1">
         <Textarea
           placeholder="Paste text with line breaks here..."
           className="min-h-40 resize-y text-sm"
@@ -38,7 +38,7 @@ export function RemoveLineBreaksTool() {
           onChange={(e) => { setInput(e.target.value); setOutput(""); }}
         />
         {input && (
-          <div className="absolute right-2 top-2">
+          <div className="flex justify-end">
             <ClearButton onClear={() => { setInput(""); setOutput(""); }} />
           </div>
         )}

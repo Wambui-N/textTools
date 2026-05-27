@@ -25,7 +25,7 @@ export function ExtractEmailsTool() {
 
   return (
     <div className="space-y-4">
-      <div className="relative">
+      <div className="space-y-1">
         <Textarea
           placeholder="Paste any text, email, or webpage source here..."
           className="min-h-48 resize-y text-sm"
@@ -34,7 +34,7 @@ export function ExtractEmailsTool() {
           onChange={(e) => setText(e.target.value)}
         />
         {text && (
-          <div className="absolute right-2 top-2">
+          <div className="flex justify-end">
             <ClearButton onClear={() => setText("")} />
           </div>
         )}
