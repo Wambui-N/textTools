@@ -21,7 +21,7 @@ export function Header() {
       }}
     >
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2 font-medium" style={{ fontFamily: "var(--font-heading)" }}>
+        <Link href="/" className="flex items-center gap-2 font-semibold" style={{ fontFamily: "var(--font-heading)" }}>
           <span className="text-lg tracking-wide">
             <span style={{ color: "var(--text-primary)" }}>shelf</span><em style={{ color: "var(--accent)", fontStyle: "italic" }}>cue</em>
           </span>
