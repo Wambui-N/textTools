@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Fraunces } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -6,6 +7,14 @@ import { CookieBanner } from "@/components/legal/CookieBanner";
 import { AdSenseLoader } from "@/components/ads/AdSenseLoader";
 import { GA_MEASUREMENT_ID, ADSENSE_PUBLISHER_ID } from "@/lib/legal";
 import "./globals.css";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  weight: "400",
+  style: ["normal", "italic"],
+  variable: "--font-fraunces",
+  display: "swap",
+});
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 const GSC_VERIFICATION = process.env.NEXT_PUBLIC_GSC_VERIFICATION || "";
@@ -33,7 +42,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={fraunces.variable}>
       <head>
         {/* Google Consent Mode v2 — default all non-essential signals to denied
             until the user accepts via the cookie banner. */}
@@ -61,7 +70,7 @@ gtag('config','${GA_MEASUREMENT_ID}',{send_page_view:false});
         )}
       </head>
       <body>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="flex min-h-screen flex-col" style={{ backgroundColor: "var(--bg-primary)" }}>
             <Header />
             <main className="flex-1">{children}</main>

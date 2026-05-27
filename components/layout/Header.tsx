@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { Moon, Sun, Wrench } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
@@ -21,9 +21,18 @@ export function Header() {
       }}
     >
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2 text-lg font-semibold" style={{ fontFamily: "var(--font-heading)" }}>
-          <span className="text-lg tracking-wide">
-            <span style={{ color: "var(--text-primary)" }}>shelf</span><em style={{ color: "var(--accent)", fontStyle: "italic" }}>cue</em>
+        <Link href="/" aria-label="ShelfCue home">
+          <span
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontSize: "1.75rem",
+              fontWeight: 400,
+              letterSpacing: "-0.015em",
+              lineHeight: 1,
+            }}
+          >
+            <span style={{ color: "var(--text-primary)" }}>shelf</span>
+            <em style={{ fontStyle: "italic", color: "var(--accent-hover)" }}>cue</em>
           </span>
         </Link>
 

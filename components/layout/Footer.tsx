@@ -8,9 +8,31 @@ export function Footer() {
     >
       <div className="mx-auto max-w-6xl px-4">
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-          <p className="text-sm" style={{ fontFamily: "var(--font-heading)", color: "var(--text-primary)" }}>
-            <span style={{ color: "var(--text-primary)" }}>shelf</span><em style={{ color: "var(--accent)", fontStyle: "italic" }}>cue</em>: Clean text tools for everyday work
-          </p>
+          <div className="flex flex-col gap-0.5">
+            <span
+              style={{
+                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontSize: "1.75rem",
+                fontWeight: 400,
+                letterSpacing: "-0.015em",
+                lineHeight: 1,
+              }}
+            >
+              <span style={{ color: "var(--text-primary)" }}>shelf</span>
+              <em style={{ fontStyle: "italic", color: "var(--accent-hover)" }}>cue</em>
+            </span>
+            <p
+              style={{
+                fontFamily: "var(--font-body)",
+                fontSize: "0.8rem",
+                color: "var(--accent-hover)",
+                opacity: 0.75,
+                letterSpacing: "0.06em",
+              }}
+            >
+              clean text tools for everyday work
+            </p>
+          </div>
           <nav className="flex items-center gap-6">
             <Link href="/tools" className="text-xs hover:underline" style={{ color: "var(--text-muted)" }}>
               All Tools
