@@ -30,4 +30,6 @@ export interface ToolDefinition {
   featureList?: string;
   whatIs?: WhatIs;
   useCases?: UseCase[];
+  howToUse: string[];
+  features: string[];
 }
