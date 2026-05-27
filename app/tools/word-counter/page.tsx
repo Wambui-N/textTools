@@ -7,7 +7,7 @@ const tool = toolsBySlug["word-counter"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Word Counter — Free Online Word Count Tool",
+  title: "Word Counter - Free Online Word Count Tool",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: {
@@ -47,7 +47,7 @@ export default function WordCounterPage() {
         "Reading time estimate (238 wpm average)",
         "Speaking time estimate (130 wpm)",
         "No signup, no ads obscuring the tool, completely free",
-        "All processing happens in your browser — text never leaves your device",
+        "All processing happens in your browser. Text never leaves your device",
       ]}
     >
       <WordCounterTool />

@@ -9,22 +9,22 @@ export const tools: ToolDefinition[] = [
     keywords: ["word counter", "count words online", "word count checker", "free word counter"],
     category: "Analysis",
     icon: "Hash",
-    ogTitle: "Word Counter — Free Online Word Count Tool",
+    ogTitle: "Word Counter - Free Online Word Count Tool",
     metaDescription: "Count words, characters, sentences, and paragraphs instantly. Free online word counter with reading time estimate. No signup required.",
     featureList: "Counts words, characters, sentences, paragraphs, reading time, speaking time",
     whatIs: {
       definition: "A word counter is a tool that instantly counts the number of words, characters, sentences, and paragraphs in any block of text.",
-      explanation: "Writers use word counters to meet assignment limits, editors use them to hit target lengths, and marketers use them to optimize content for readability. Unlike a word processor's built-in counter, a browser-based tool works on any device with no software installed and processes any text you can paste — emails, web copy, notes, or manuscripts.",
+      explanation: "Writers use word counters to meet assignment limits, editors use them to hit target lengths, and marketers use them to optimize content for readability. Unlike a word processor's built-in counter, a browser-based tool works on any device with no software installed and processes any text you can paste: emails, web copy, notes, or manuscripts.",
     },
     useCases: [
       { title: "Academic assignments", scenario: "A student writing a 2,500-word essay pastes their draft to verify the exact count before submitting, avoiding a grade penalty for being 300 words under the minimum." },
-      { title: "Blog content planning", scenario: "A blogger targeting 1,200 words for SEO pastes their draft and sees 940 words — they know exactly how much to expand before publishing." },
+      { title: "Blog content planning", scenario: "A blogger targeting 1,200 words for SEO pastes their draft and sees 940 words, so they know exactly how much to expand before publishing." },
       { title: "Video scripts", scenario: "A video creator writing a 90-second script uses the speaking-time estimate (130 wpm) to confirm their 195-word draft fits the slot without re-recording." },
     ],
     faqs: [
       {
         question: "How do I count words in a document?",
-        answer: "Paste or type your text into the word counter above. Word count, characters, sentences, and paragraphs update instantly — no button required. Use the Clear button to reset and start with new text.",
+        answer: "Paste or type your text into the word counter above. Word count, characters, sentences, and paragraphs update instantly with no button required. Use the Clear button to reset and start with new text.",
       },
       {
         question: "Does Word Counter save my text?",
@@ -32,7 +32,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What counts as a word?",
-        answer: "Words are counted by splitting text on whitespace — spaces, tabs, and line breaks. Any non-whitespace sequence between spaces is one word. Hyphenated words like 'well-known' count as a single word.",
+        answer: "Words are counted by splitting text on whitespace: spaces, tabs, and line breaks. Any non-whitespace sequence between spaces is one word. Hyphenated words like 'well-known' count as a single word.",
       },
       {
         question: "How accurate is the reading time estimate?",
@@ -40,7 +40,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "Can I use this for counting words in an essay or assignment?",
-        answer: "Yes. The Word Counter is accurate for standard written text. Paste your full draft including headings. Note that what counts toward your assignment limit depends on your institution — footnotes and references may or may not be included.",
+        answer: "Yes. The Word Counter is accurate for standard written text. Paste your full draft including headings. Note that what counts toward your assignment limit depends on your institution. Footnotes and references may or may not be included.",
       },
     ],
     relatedSlugs: ["character-counter", "reading-time-estimator", "word-frequency-counter", "lorem-ipsum-generator"],
@@ -53,7 +53,7 @@ export const tools: ToolDefinition[] = [
     keywords: ["character counter", "character count online", "count characters", "Twitter character counter"],
     category: "Analysis",
     icon: "Type",
-    ogTitle: "Character Counter — Count Characters Online Free",
+    ogTitle: "Character Counter - Count Characters Online Free",
     metaDescription: "Count characters instantly with visual limits for Twitter (280), Instagram (2,200), LinkedIn (3,000), and meta descriptions. Free, no signup.",
     featureList: "Counts characters with and without spaces, shows platform limits for Twitter, Instagram, LinkedIn, meta description, YouTube title",
     whatIs: {
@@ -62,7 +62,7 @@ export const tools: ToolDefinition[] = [
     },
     useCases: [
       { title: "Twitter / X posts", scenario: "A marketer drafting a tweet checks the live counter to stay under 280 characters, fitting both the message and a URL without triggering Twitter's truncation." },
-      { title: "SEO meta descriptions", scenario: "An SEO writes a 158-character meta description — safely under the 160-character limit — so Google displays the full text in search results rather than cutting it off." },
+      { title: "SEO meta descriptions", scenario: "An SEO writes a 158-character meta description, safely under the 160-character limit, so Google displays the full text in search results rather than cutting it off." },
       { title: "Google Ads copy", scenario: "A PPC specialist writing a 30-character headline uses the counter to hit exactly 30 characters, maximising the space without exceeding the ad platform's limit." },
     ],
     faqs: [
@@ -80,7 +80,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What is the Instagram caption character limit?",
-        answer: "Instagram captions can be up to 2,200 characters. Only the first 125 characters appear in the feed before truncation. Put your most important text — your hook or call to action — within the first 125 characters.",
+        answer: "Instagram captions can be up to 2,200 characters. Only the first 125 characters appear in the feed before truncation. Put your most important text (your hook or call to action) within the first 125 characters.",
       },
       {
         question: "Why does character count matter for SEO?",
@@ -97,7 +97,7 @@ export const tools: ToolDefinition[] = [
     keywords: ["case converter", "uppercase converter", "title case converter", "text case changer online"],
     category: "Transformation",
     icon: "CaseSensitive",
-    ogTitle: "Case Converter — Change Text Case Online Free",
+    ogTitle: "Case Converter - Change Text Case Online Free",
     metaDescription: "Convert text to UPPERCASE, lowercase, Title Case, camelCase, PascalCase, snake_case, and kebab-case instantly. Free online case converter.",
     featureList: "UPPER CASE, lower case, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case",
     whatIs: {
@@ -107,7 +107,7 @@ export const tools: ToolDefinition[] = [
     useCases: [
       { title: "Developer variable naming", scenario: "A developer copies a database column name like 'user_first_name' and converts it to camelCase ('userFirstName') for a JavaScript variable in 2 seconds rather than retyping." },
       { title: "Blog post headlines", scenario: "A content editor pastes 12 draft headlines typed in all-lowercase and converts them all to Title Case at once, saving 5 minutes of manual capitalisation." },
-      { title: "URL slug preparation", scenario: "A copywriter converts a headline 'My Best Marketing Tips for 2025' to kebab-case — 'my-best-marketing-tips-for-2025' — ready to paste as a URL slug." },
+      { title: "URL slug preparation", scenario: "A copywriter converts a headline 'My Best Marketing Tips for 2025' to kebab-case ('my-best-marketing-tips-for-2025'), ready to paste as a URL slug." },
     ],
     faqs: [
       {
@@ -128,7 +128,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What is sentence case?",
-        answer: "Sentence case capitalises only the first letter of each sentence, leaving the rest lowercase — exactly like standard prose. 'THE QUICK BROWN FOX. JUMPS OVER.' becomes 'The quick brown fox. Jumps over.'",
+        answer: "Sentence case capitalises only the first letter of each sentence, leaving the rest lowercase, exactly like standard prose. 'THE QUICK BROWN FOX. JUMPS OVER.' becomes 'The quick brown fox. Jumps over.'",
       },
     ],
     relatedSlugs: ["find-and-replace", "text-to-slug", "remove-extra-spaces", "reverse-text"],
@@ -141,7 +141,7 @@ export const tools: ToolDefinition[] = [
     keywords: ["remove duplicate lines", "delete duplicate lines online", "find duplicate lines text"],
     category: "Cleaning",
     icon: "Layers",
-    ogTitle: "Remove Duplicate Lines — Free Online Deduplication Tool",
+    ogTitle: "Remove Duplicate Lines - Free Online Deduplication Tool",
     metaDescription: "Remove duplicate lines from any list or text instantly. Case-sensitive option, whitespace trimming, shows count of removed duplicates. Free.",
     featureList: "Removes duplicate lines, case-sensitive option, whitespace trimming, shows count of removed lines, preserves order",
     whatIs: {
@@ -168,7 +168,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "Can I use this to clean up a CSV?",
-        answer: "Yes, for single-column CSV data. Paste the values one per line to remove duplicates. For multi-column CSVs, an entire row must be identical to count as a duplicate — partial row matching is not supported.",
+        answer: "Yes, for single-column CSV data. Paste the values one per line to remove duplicates. For multi-column CSVs, an entire row must be identical to count as a duplicate. Partial row matching is not supported.",
       },
       {
         question: "What happens to blank lines?",
@@ -185,12 +185,12 @@ export const tools: ToolDefinition[] = [
     keywords: ["sort lines alphabetically online", "sort list online", "alphabetize list", "sort text lines"],
     category: "Transformation",
     icon: "ArrowUpDown",
-    ogTitle: "Sort Lines — Alphabetize Lists Online Free",
+    ogTitle: "Sort Lines - Alphabetize Lists Online Free",
     metaDescription: "Sort lines alphabetically (A-Z or Z-A), by length, in reverse order, or randomly. Clean list sorting with case and whitespace options. Free.",
     featureList: "Sort A-Z, Z-A, shortest first, longest first, reverse order, random shuffle, case-sensitive option",
     whatIs: {
-      definition: "A line sorter rearranges the lines of any text into a new order — alphabetical, by length, reversed, or randomised — in one click.",
-      explanation: "Sorted lists are easier to scan, compare, and de-duplicate. Developers sort import statements and configuration keys alphabetically for consistency. Writers sort reference lists for readability. Researchers sort data exports for analysis. Doing this manually in a text editor requires copy-pasting each line individually — this tool handles hundreds of lines in under a second.",
+      definition: "A line sorter rearranges the lines of any text into a new order: alphabetical, by length, reversed, or randomised. One click.",
+      explanation: "Sorted lists are easier to scan, compare, and de-duplicate. Developers sort import statements and configuration keys alphabetically for consistency. Writers sort reference lists for readability. Researchers sort data exports for analysis. Doing this manually in a text editor requires copy-pasting each line individually. This tool handles hundreds of lines in under a second.",
     },
     useCases: [
       { title: "Alphabetising a reading list", scenario: "A researcher pastes 45 book titles in random order and sorts them A→Z, producing a clean alphabetical bibliography in 3 seconds rather than sorting manually." },
@@ -204,7 +204,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "Can I sort numbers with this tool?",
-        answer: "Numbers sort lexicographically (as strings), so '10' comes before '2'. To sort numerically, pad numbers with leading zeros — '02', '10' — and they will sort correctly as strings.",
+        answer: "Numbers sort lexicographically (as strings), so '10' comes before '2'. To sort numerically, pad numbers with leading zeros ('02', '10') and they will sort correctly as strings.",
       },
       {
         question: "Does sorting preserve blank lines?",
@@ -212,7 +212,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What does reverse order mean for sorting?",
-        answer: "'Reverse order' flips the current sequence — the last line becomes first. It does not sort alphabetically in reverse. For reverse-alphabetical sorting, use the 'Z → A' option.",
+        answer: "'Reverse order' flips the current sequence: the last line becomes first. It does not sort alphabetically in reverse. For reverse-alphabetical sorting, use the 'Z → A' option.",
       },
       {
         question: "Can I randomize/shuffle a list online?",
@@ -229,7 +229,7 @@ export const tools: ToolDefinition[] = [
     keywords: ["remove extra spaces", "remove whitespace online", "trim spaces text", "clean up spaces in text"],
     category: "Cleaning",
     icon: "Minimize2",
-    ogTitle: "Remove Extra Spaces — Clean Whitespace from Text Free",
+    ogTitle: "Remove Extra Spaces - Clean Whitespace from Text Free",
     metaDescription: "Remove leading, trailing, and multiple spaces from text. Clean up whitespace from PDFs, emails, and documents. Free online space remover.",
     featureList: "Removes leading/trailing spaces, multiple spaces, spaces before punctuation, tab characters",
     whatIs: {
@@ -237,7 +237,7 @@ export const tools: ToolDefinition[] = [
       explanation: "Extra spaces are invisible until they cause problems: a search fails because of a trailing space, an email subject line looks broken, or a database query returns no results because of hidden whitespace in a field. Text copied from PDFs, HTML, or Word documents is a common source of these hidden characters. This tool removes them reliably with configurable options.",
     },
     useCases: [
-      { title: "PDF copy-paste cleanup", scenario: "A paralegal copies 3 pages of contract text from a PDF. The paste introduces double spaces after every period and trailing spaces on 40% of lines — removed in one click." },
+      { title: "PDF copy-paste cleanup", scenario: "A paralegal copies 3 pages of contract text from a PDF. The paste introduces double spaces after every period and trailing spaces on 40% of lines, removed in one click." },
       { title: "Database import prep", scenario: "A data analyst cleaning 500 customer names for a CRM import uses 'trim leading/trailing spaces' to fix 63 records that would otherwise create duplicate entries." },
       { title: "Email copy editing", scenario: "A copywriter pastes a forwarded email chain into a clean document. Extra spaces from quoted text formatting are removed, reducing the character count from 1,840 to 1,620." },
     ],
@@ -260,7 +260,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What is the difference between trim and strip?",
-        answer: "In most programming languages, 'trim' and 'strip' are synonymous — both remove leading and trailing whitespace from a string. JavaScript uses 'trim()', Python uses 'strip()'. This tool's option performs the same operation.",
+        answer: "In most programming languages, 'trim' and 'strip' are synonymous: both remove leading and trailing whitespace from a string. JavaScript uses 'trim()', Python uses 'strip()'. This tool's option performs the same operation.",
       },
     ],
     relatedSlugs: ["remove-line-breaks", "remove-duplicate-lines", "find-and-replace", "case-converter"],
@@ -273,7 +273,7 @@ export const tools: ToolDefinition[] = [
     keywords: ["remove line breaks", "remove line breaks online", "join lines of text", "convert line breaks to spaces"],
     category: "Cleaning",
     icon: "WrapText",
-    ogTitle: "Remove Line Breaks — Join Lines of Text Online Free",
+    ogTitle: "Remove Line Breaks - Join Lines of Text Online Free",
     metaDescription: "Remove line breaks from text and join lines into one. Replace line breaks with spaces, commas, or custom characters. Clean up PDF and email text. Free.",
     featureList: "Replace line breaks with space, nothing, comma, or custom character; remove multiple blank lines; remove all blank lines",
     whatIs: {
@@ -281,8 +281,8 @@ export const tools: ToolDefinition[] = [
       explanation: "Unwanted line breaks are one of the most common formatting problems in day-to-day text work. PDF text extraction adds a break at every printed line. Email clients insert soft returns at 72 characters. Developers copy terminal output full of line breaks into documentation. This tool fixes all of these in seconds, with flexible options for what to replace line breaks with.",
     },
     useCases: [
-      { title: "PDF text extraction", scenario: "A researcher copies 5 paragraphs from a PDF. Every line ends with a break at the 80-character print margin, creating 35 unwanted line breaks — all removed in one click." },
-      { title: "List to comma-separated", scenario: "A developer has a vertical list of 50 city names (one per line) needed as a comma-separated string for a SQL IN() clause — converted in 2 seconds." },
+      { title: "PDF text extraction", scenario: "A researcher copies 5 paragraphs from a PDF. Every line ends with a break at the 80-character print margin, creating 35 unwanted line breaks, all removed in one click." },
+      { title: "List to comma-separated", scenario: "A developer has a vertical list of 50 city names (one per line) needed as a comma-separated string for a SQL IN() clause, converted in 2 seconds." },
       { title: "Email chain cleanup", scenario: "A PR manager pastes a quoted email reply chain into a document. 28 soft-return line breaks from the email client are replaced with spaces, producing clean readable paragraphs." },
     ],
     faqs: [
@@ -300,7 +300,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What is the difference between \\n and \\r\\n?",
-        answer: "\\n (LF) is the Unix/macOS line ending. \\r\\n (CRLF) is the Windows line ending. This tool handles both formats automatically — you do not need to know which format your source text uses.",
+        answer: "\\n (LF) is the Unix/macOS line ending. \\r\\n (CRLF) is the Windows line ending. This tool handles both formats automatically. You do not need to know which format your source text uses.",
       },
       {
         question: "Can I replace line breaks with commas?",
@@ -317,12 +317,12 @@ export const tools: ToolDefinition[] = [
     keywords: ["find and replace text online", "text find replace tool", "bulk find replace", "online text editor find replace"],
     category: "Transformation",
     icon: "Search",
-    ogTitle: "Find and Replace Text Online — Free Text Editor Tool",
+    ogTitle: "Find and Replace Text Online - Free Text Editor Tool",
     metaDescription: "Find and replace text online with case-sensitive and whole-word options. Highlights matches in real time. Free online find and replace tool.",
     featureList: "Case-sensitive matching, whole-word matching, replace all or one at a time, real-time match highlighting, match count",
     whatIs: {
       definition: "An online find and replace tool searches for a word or phrase within a block of text and substitutes every occurrence with a replacement string.",
-      explanation: "Every text editor has find and replace, but sometimes you are working with text outside any editor — in a form field, a CMS, a spreadsheet cell, or pasted from a source with no editing tools. This tool lets you perform bulk replacements on any text in seconds. It also shows match counts in real time as you type the search term, so you know what will change before you apply it.",
+      explanation: "Every text editor has find and replace, but sometimes you are working with text outside any editor: in a form field, a CMS, a spreadsheet cell, or pasted from a source with no editing tools. This tool lets you perform bulk replacements on any text in seconds. It also shows match counts in real time as you type the search term, so you know what will change before you apply it.",
     },
     useCases: [
       { title: "Brand name update", scenario: "A marketer pastes a 1,500-word press release and replaces 'Acme Corp' with 'Acme Corporation' across all 12 occurrences in a single click, with zero missed instances." },
@@ -361,12 +361,12 @@ export const tools: ToolDefinition[] = [
     keywords: ["text diff checker", "compare two texts online", "find differences between texts", "online text comparison tool"],
     category: "Analysis",
     icon: "GitCompare",
-    ogTitle: "Text Diff Checker — Compare Two Texts Online Free",
+    ogTitle: "Text Diff Checker - Compare Two Texts Online Free",
     metaDescription: "Compare two pieces of text and see exactly what changed. Highlights additions in green and deletions in red. Free online text diff tool.",
     featureList: "Word-level diff, line-level diff toggle, additions in green, deletions in red, count of changes",
     whatIs: {
       definition: "A text diff checker compares two versions of text and highlights exactly what has been added, removed, or left unchanged between them.",
-      explanation: "Diff checking is a standard technique in software development, but writers, editors, lawyers, and translators use it just as much. Any time a document goes through revisions, a diff checker shows what changed at a glance — without reading both versions in full. This tool uses the same algorithm as version control systems like Git to detect changes at the word or line level.",
+      explanation: "Diff checking is a standard technique in software development, but writers, editors, lawyers, and translators use it just as much. Any time a document goes through revisions, a diff checker shows what changed at a glance, without reading both versions in full. This tool uses the same algorithm as version control systems like Git to detect changes at the word or line level.",
     },
     useCases: [
       { title: "Contract revision review", scenario: "A lawyer receives a revised 8-page contract. Instead of reading it twice, they paste both versions into the diff checker and see 6 changed clauses highlighted in seconds." },
@@ -384,7 +384,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "Can I compare two versions of a document?",
-        answer: "Yes. Paste the old version on the left and the new version on the right. The diff view highlights every change — useful for proofreading, reviewing contract edits, checking content revisions, or auditing configuration changes.",
+        answer: "Yes. Paste the old version on the left and the new version on the right. The diff view highlights every change, useful for proofreading, reviewing contract edits, checking content revisions, or auditing configuration changes.",
       },
       {
         question: "Is my text saved when using the diff checker?",
@@ -392,7 +392,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What is the difference between character diff and word diff?",
-        answer: "Character diff shows every individual character that changed — hard to read on long texts. Word diff treats each word as a unit, showing which whole words were added or removed. This tool defaults to word diff with a line diff option.",
+        answer: "Character diff shows every individual character that changed, which can be hard to read on long texts. Word diff treats each word as a unit, showing which whole words were added or removed. This tool defaults to word diff with a line diff option.",
       },
     ],
     relatedSlugs: ["find-and-replace", "word-counter", "remove-extra-spaces", "remove-duplicate-lines"],
@@ -405,17 +405,17 @@ export const tools: ToolDefinition[] = [
     keywords: ["reading time estimator", "how long to read", "reading time calculator", "estimate reading time online"],
     category: "Analysis",
     icon: "Clock",
-    ogTitle: "Reading Time Estimator — Calculate Reading Time Free",
+    ogTitle: "Reading Time Estimator - Calculate Reading Time Free",
     metaDescription: "Calculate how long it takes to read your text at 150, 238, and 350 words per minute. Plus speaking time. Free reading time calculator.",
     featureList: "Slow, average, and fast reader estimates, speaking time, word count, content-type hints",
     whatIs: {
       definition: "A reading time estimator calculates how long it will take an average reader to read a piece of text, based on the word count and typical reading speeds.",
-      explanation: "Knowing reading time helps writers plan content length and helps readers decide whether to read now or save for later. Platforms like Medium and Substack show estimated reading time because it reduces bounce rate — readers who know what they are committing to are more likely to finish. This tool gives estimates for slow, average, and fast readers, plus speaking time for presentations and podcasts.",
+      explanation: "Knowing reading time helps writers plan content length and helps readers decide whether to read now or save for later. Platforms like Medium and Substack show estimated reading time because it reduces bounce rate, since readers who know what they are committing to are more likely to finish. This tool gives estimates for slow, average, and fast readers, plus speaking time for presentations and podcasts.",
     },
     useCases: [
-      { title: "Blog post length optimisation", scenario: "A blogger targeting a '5-minute read' label on Medium pastes their draft and sees 9 minutes — they trim the post from 2,140 words to 1,190 to hit the target." },
+      { title: "Blog post length optimisation", scenario: "A blogger targeting a '5-minute read' label on Medium pastes their draft and sees 9 minutes, so they trim the post from 2,140 words to 1,190 to hit the target." },
       { title: "Presentation scripting", scenario: "A speaker preparing a 15-minute keynote pastes their script and uses the 130 wpm speaking estimate to confirm 1,950 words fills exactly 15 minutes without rushing." },
-      { title: "Email newsletter planning", scenario: "A newsletter editor sees their 1,400-word issue takes 6 minutes to read at average speed — above their 3-minute target — and cuts two sections totalling 580 words." },
+      { title: "Email newsletter planning", scenario: "A newsletter editor sees their 1,400-word issue takes 6 minutes to read at average speed, above their 3-minute target, and cuts two sections totalling 580 words." },
     ],
     faqs: [
       {
@@ -424,7 +424,7 @@ export const tools: ToolDefinition[] = [
       },
       {
         question: "What is the average adult reading speed?",
-        answer: "Research by Rayner et al. (2016) found the average adult reads approximately 238 words per minute for non-fiction. Reading speed varies with content complexity and reading purpose — skimming is significantly faster than deep reading.",
+        answer: "Research by Rayner et al. (2016) found the average adult reads approximately 238 words per minute for non-fiction. Reading speed varies with content complexity and reading purpose. Skimming is significantly faster than deep reading.",
       },
       {
         question: "How do I calculate reading time for a blog post?",
@@ -449,12 +449,12 @@ export const tools: ToolDefinition[] = [
     keywords: ["lorem ipsum generator", "lorem ipsum text generator", "placeholder text generator", "dummy text generator"],
     category: "Generation",
     icon: "FileText",
-    ogTitle: "Lorem Ipsum Generator — Free Placeholder Text Tool",
+    ogTitle: "Lorem Ipsum Generator - Free Placeholder Text Tool",
     metaDescription: "Generate Lorem Ipsum placeholder text by words, sentences, or paragraphs. Start with classic 'Lorem ipsum' or generate random text. Free.",
     featureList: "Generate by words, sentences, or paragraphs; start with classic Lorem ipsum; adjustable quantity",
     whatIs: {
       definition: "A Lorem Ipsum generator produces random Latin-derived placeholder text used to fill layouts and designs before real content is available.",
-      explanation: "Lorem Ipsum has been the standard placeholder text in publishing and graphic design for over 500 years. Using meaningful text in a mockup distracts reviewers from evaluating the design itself — they read the words instead of looking at the layout. Placeholder text prevents this. This generator lets you produce exactly the amount you need, in any format, with one click.",
+      explanation: "Lorem Ipsum has been the standard placeholder text in publishing and graphic design for over 500 years. Using meaningful text in a mockup distracts reviewers from evaluating the design itself: they read the words instead of looking at the layout. Placeholder text prevents this. This generator lets you produce exactly the amount you need, in any format, with one click.",
     },
     useCases: [
       { title: "UI wireframe population", scenario: "A UX designer building a 5-screen mobile app wireframe generates 3 paragraphs per screen, filling 15 content areas with realistic-length text in under 30 seconds." },
@@ -493,7 +493,7 @@ export const tools: ToolDefinition[] = [
     keywords: ["word frequency counter", "word frequency analysis", "most used words in text", "keyword density checker"],
     category: "Analysis",
     icon: "BarChart2",
-    ogTitle: "Word Frequency Counter — Keyword Density Analyzer Free",
+    ogTitle: "Word Frequency Counter - Keyword Density Analyzer Free",
     metaDescription: "Count how often each word appears in your text. Filter stop words, check keyword density, sort by frequency or alphabetically. Free analysis tool.",
     featureList: "Word frequency table, frequency percentage, stop word filtering, sortable by count or alphabetically, CSS bar chart",
     whatIs: {
@@ -501,8 +501,8 @@ export const tools: ToolDefinition[] = [
       explanation: "Word frequency analysis reveals the vocabulary structure of any text. Writers use it to detect overused words they did not notice. SEOs use it to audit keyword density and check that target terms appear at the right frequency. Researchers use it to study writing style and vocabulary richness. The stop word filter removes common function words so the meaningful content words rise to the top of the results.",
     },
     useCases: [
-      { title: "SEO keyword density audit", scenario: "An SEO pastes a 1,500-word article and confirms their target keyword appears 9 times (0.6% density) — within the 1–2% optimal range, with no over-optimisation risk." },
-      { title: "Writing repetition detection", scenario: "A novelist pastes a chapter and finds the word 'suddenly' appears 14 times — far more than intended — prompting them to vary language in 11 of the 14 instances." },
+      { title: "SEO keyword density audit", scenario: "An SEO pastes a 1,500-word article and confirms their target keyword appears 9 times (0.6% density), within the 1–2% optimal range, with no over-optimisation risk." },
+      { title: "Writing repetition detection", scenario: "A novelist pastes a chapter and finds the word 'suddenly' appears 14 times, far more than intended, prompting them to vary language in 11 of the 14 instances." },
       { title: "Academic vocabulary analysis", scenario: "A linguistics student analyses a 2,000-word speech transcript with stop words disabled, revealing the 20 most distinctive content words that define the speaker's rhetoric." },
     ],
     faqs: [
@@ -537,22 +537,22 @@ export const tools: ToolDefinition[] = [
     keywords: ["extract emails from text", "email extractor online", "pull emails from text", "find email addresses in text"],
     category: "Utilities",
     icon: "Mail",
-    ogTitle: "Extract Emails from Text — Free Email Extractor Tool",
+    ogTitle: "Extract Emails from Text - Free Email Extractor Tool",
     metaDescription: "Extract all email addresses from any text, webpage, or document instantly. Deduplicates results automatically. Copy or download as .txt. Free.",
     featureList: "Regex-based extraction, automatic deduplication, copy newline-separated or comma-separated, download as .txt",
     whatIs: {
       definition: "An email extractor scans any block of text and pulls out every valid email address it finds, removing duplicates and presenting a clean list.",
-      explanation: "Email addresses are embedded in all kinds of text: pasted website source code, exported CRM data, forwarded email threads, scraped documents, and CSV exports. Finding them manually in a 5,000-word block of text can take 20 minutes. This tool scans the entire input in milliseconds and produces a deduplicated list ready to copy or download — without any information leaving your browser.",
+      explanation: "Email addresses are embedded in all kinds of text: pasted website source code, exported CRM data, forwarded email threads, scraped documents, and CSV exports. Finding them manually in a 5,000-word block of text can take 20 minutes. This tool scans the entire input in milliseconds and produces a deduplicated list ready to copy or download, without any information leaving your browser.",
     },
     useCases: [
-      { title: "Event attendee list building", scenario: "An event organiser pastes 3 forwarded email threads totalling 800 lines and extracts 24 unique attendee email addresses — a task that would take 15 minutes manually." },
+      { title: "Event attendee list building", scenario: "An event organiser pastes 3 forwarded email threads totalling 800 lines and extracts 24 unique attendee email addresses, a task that would take 15 minutes manually." },
       { title: "Webpage contact harvesting", scenario: "A sales researcher pastes the HTML source of a company's team page and instantly extracts 11 staff email addresses that are not visible in the rendered layout." },
       { title: "CRM data cleaning", scenario: "A data analyst pastes a messy exported report containing 200 email addresses mixed with other data. The extractor returns 178 unique addresses, deduplicating 22 repeats." },
     ],
     faqs: [
       {
         question: "How do I extract email addresses from text?",
-        answer: "Paste any text — a document, email thread, or webpage source — into the input area. The tool scans for valid email patterns and lists all addresses found. Duplicates are removed automatically. Copy or download the results.",
+        answer: "Paste any text (a document, email thread, or webpage source) into the input area. The tool scans for valid email patterns and lists all addresses found. Duplicates are removed automatically. Copy or download the results.",
       },
       {
         question: "Does the extractor find all email formats?",
@@ -576,16 +576,16 @@ export const tools: ToolDefinition[] = [
   {
     slug: "reverse-text",
     title: "Reverse Text",
-    description: "Reverse text online — by characters, words, or generate upside-down flipped text using Unicode characters.",
+    description: "Reverse text online by characters, words, or generate upside-down flipped text using Unicode characters.",
     shortDescription: "Reverse, flip, or mirror text",
     keywords: ["reverse text", "backwards text generator", "flip text online", "mirror text"],
     category: "Transformation",
     icon: "Repeat",
-    ogTitle: "Reverse Text — Backwards Text Generator Online Free",
+    ogTitle: "Reverse Text - Backwards Text Generator Online Free",
     metaDescription: "Reverse text online by characters, words, or generate upside-down Unicode text. Mirror text for social media, puzzles, and fun. Free.",
     featureList: "Reverse entire text, reverse word order, reverse each word, Unicode upside-down flip",
     whatIs: {
-      definition: "A text reverser rearranges text in the opposite direction — reversing individual characters, reversing the order of words, or flipping text upside-down using Unicode substitutions.",
+      definition: "A text reverser rearranges text in the opposite direction: reversing individual characters, reversing the order of words, or flipping text upside-down using Unicode substitutions.",
       explanation: "Reversed text has practical and creative uses. Educators create reading puzzles by reversing sentences. Social media users generate eye-catching flipped text that stands out in feeds. Developers test string-handling code with reversed inputs. The Unicode upside-down mode works on most platforms including Twitter/X, Instagram, and Discord, where special Unicode characters render as visually rotated letters.",
     },
     useCases: [
@@ -596,7 +596,7 @@ export const tools: ToolDefinition[] = [
     faqs: [
       {
         question: "How do I reverse text online?",
-        answer: "Type or paste your text into the input area, select a reversal mode — reverse entire text, reverse word order, reverse each word, or flip upside down — and the output updates instantly. Copy the result with the Copy button.",
+        answer: "Type or paste your text into the input area, select a reversal mode (reverse entire text, reverse word order, reverse each word, or flip upside down) and the output updates instantly. Copy the result with the Copy button.",
       },
       {
         question: "What is the difference between reversing text and reversing words?",
@@ -625,15 +625,15 @@ export const tools: ToolDefinition[] = [
     keywords: ["text to slug converter", "URL slug generator", "convert title to URL", "slug generator online"],
     category: "Utilities",
     icon: "Link",
-    ogTitle: "Text to Slug — URL Slug Generator Online Free",
+    ogTitle: "Text to Slug - URL Slug Generator Online Free",
     metaDescription: "Convert titles and phrases into clean URL slugs. Choose hyphens or underscores, remove stop words, set max length. SEO-friendly slug generator. Free.",
     featureList: "Hyphen or underscore separator, lowercase conversion, stop word removal, max length option, instant preview",
     whatIs: {
       definition: "A slug generator converts a title or phrase into a URL-safe string by lowercasing all characters, replacing spaces with hyphens or underscores, and removing special characters.",
-      explanation: "A URL slug is the human-readable part of a web address that identifies a specific page. Good slugs are short, lowercase, contain the target keyword, and use hyphens as word separators — all of which Google recommends for SEO. Creating slugs manually from long titles requires careful formatting. This tool generates them instantly with options to remove stop words and enforce maximum length.",
+      explanation: "A URL slug is the human-readable part of a web address that identifies a specific page. Good slugs are short, lowercase, contain the target keyword, and use hyphens as word separators, all of which Google recommends for SEO. Creating slugs manually from long titles requires careful formatting. This tool generates them instantly with options to remove stop words and enforce maximum length.",
     },
     useCases: [
-      { title: "Blog post URL creation", scenario: "A blogger writes the title 'The 10 Best Free Tools for Writers in 2025' and generates the slug 'best-free-tools-writers-2025' with stop words removed — concise and keyword-rich." },
+      { title: "Blog post URL creation", scenario: "A blogger writes the title 'The 10 Best Free Tools for Writers in 2025' and generates the slug 'best-free-tools-writers-2025' with stop words removed, concise and keyword-rich." },
       { title: "CMS content migration", scenario: "A developer migrating 300 articles to a new CMS generates clean slugs for every title in bulk, ensuring all 300 URLs are lowercase, hyphenated, and under 60 characters." },
       { title: "E-commerce product URLs", scenario: "A store owner creating 50 product pages generates slugs from product names, enforcing a 40-character maximum to keep URLs clean in Google Shopping listings." },
     ],

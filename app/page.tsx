@@ -19,11 +19,11 @@ import {
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "ShelfCue — 15 Free Online Text Tools | Word Counter, Case Converter & More",
+  title: "ShelfCue - 15 Free Online Text Tools | Word Counter, Case Converter & More",
   description:
     "Free online text tools for writers, developers, and marketers. Word counter, character counter, case converter, remove duplicates, text diff checker, and 10 more. No signup. Runs in your browser.",
   openGraph: {
-    title: "ShelfCue — 15 Free Online Text Tools",
+    title: "ShelfCue - 15 Free Online Text Tools",
     description:
       "Free online text tools for writers, developers, and marketers. No signup. Runs in your browser.",
     url: SITE_URL,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ShelfCue — 15 Free Online Text Tools",
+    title: "ShelfCue - 15 Free Online Text Tools",
     description:
       "Word counter, character counter, case converter, and 12 more. No signup. 100% browser-based.",
   },
@@ -110,7 +110,7 @@ function FAQPageSchema() {
 const SPOTLIGHT_SLUGS = ["word-counter", "character-counter", "case-converter"];
 const SPOTLIGHT_ICONS = [Hash, Type, CaseSensitive];
 const SPOTLIGHT_HOOKS = [
-  "Paste any text and see words, characters, sentences, paragraphs, and reading time update live — no button required.",
+  "Paste any text and see words, characters, sentences, paragraphs, and reading time update live with no button required.",
   "Know exactly how many characters you have left for Twitter, Instagram captions, meta descriptions, or any platform.",
   "One click converts text to UPPER CASE, lower case, Title Case, camelCase, snake_case, kebab-case, and more.",
 ];
@@ -156,7 +156,7 @@ export default function HomePage() {
             style={{ color: "var(--text-secondary)" }}
           >
             Word counter, character counter, case converter, find &amp; replace, text diff
-            checker — and 10 more tools for writers, developers, and marketers.
+            checker, and 10 more tools for writers, developers, and marketers.
           </p>
 
           {/* CTA */}
@@ -180,7 +180,7 @@ export default function HomePage() {
 
           {/* Privacy note */}
           <p className="text-xs" style={{ color: "var(--text-muted)" }}>
-            Your text never leaves your browser — ever.
+            Your text never leaves your browser. Ever.
           </p>
         </div>
       </section>
@@ -307,7 +307,7 @@ export default function HomePage() {
           Built for people who work with text
         </h2>
         <p className="mb-10 text-sm" style={{ color: "var(--text-secondary)" }}>
-          ShelfCue covers the daily text tasks of three common roles — no tool-switching needed.
+          ShelfCue covers the daily text tasks of three common roles, no tool-switching needed.
         </p>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
           {[
@@ -389,7 +389,7 @@ export default function HomePage() {
               {
                 icon: Zap,
                 title: "Instant results",
-                body: "Every analysis tool updates in real time as you type — word count, character count, reading time. No submit button, no spinner, no delay. You see results the moment you start typing.",
+                body: "Every analysis tool updates in real time as you type: word count, character count, reading time. No submit button, no spinner, no delay. You see results the moment you start typing.",
                 detail: "Tools that transform text (sort lines, remove duplicates, case converter) apply in one click and show a before/after character count so you always know exactly what changed.",
               },
               {
@@ -402,7 +402,7 @@ export default function HomePage() {
                 icon: MousePointerClick,
                 title: "No friction",
                 body: "No account. No email. No password. No free trial that expires. No feature locked behind a subscription. Open a tool, use it, close the tab.",
-                detail: "ShelfCue is funded by Google AdSense advertising. That is the only trade-off — you may see an ad on the page. In exchange you get 15 fully functional text tools, permanently free, with no other strings attached.",
+                detail: "ShelfCue is funded by Google AdSense advertising. That is the only trade-off: you may see an ad on the page. In exchange you get 15 fully functional text tools, permanently free, with no other strings attached.",
               },
             ].map(({ icon: Icon, title, body, detail }) => (
               <div
@@ -455,17 +455,17 @@ export default function HomePage() {
             className="mb-4 text-lg font-semibold"
             style={{ fontFamily: "var(--font-heading)", color: "var(--text-primary)" }}
           >
-            Free online text tools — no account required
+            Free online text tools, no account required
           </h2>
           <div className="space-y-3 text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
             <p>
-              ShelfCue is a collection of free browser-based text tools designed for everyday use by writers, developers, marketers, students, and anyone who works with text. Every tool on this site runs entirely in your browser — nothing is sent to a server, nothing is stored, and no account is required.
+              ShelfCue is a collection of free browser-based text tools designed for everyday use by writers, developers, marketers, students, and anyone who works with text. Every tool on this site runs entirely in your browser. Nothing is sent to a server, nothing is stored, and no account is required.
             </p>
             <p>
               The suite covers the most common text tasks: counting words and characters for platform limits and assignments, converting text case for code and headlines, cleaning up whitespace and line breaks from copy-pasted documents, sorting and deduplicating lists, finding and replacing text across long documents, comparing two versions of a text side by side, analysing word frequency for SEO and writing quality, and generating placeholder Lorem Ipsum text for design mockups.
             </p>
             <p>
-              All 15 tools are permanently free. ShelfCue is supported by advertising — that is the only trade-off. Open any tool, use it, and come back whenever you need it. No login. No paywall. No data collection beyond standard analytics.
+              All 15 tools are permanently free. ShelfCue is supported by advertising. Open any tool, use it, and come back whenever you need it. No login. No paywall. No data collection beyond standard analytics.
             </p>
           </div>
         </div>

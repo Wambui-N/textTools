@@ -7,7 +7,7 @@ const tool = toolsBySlug["case-converter"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Case Converter — Change Text Case Online Free",
+  title: "Case Converter - Change Text Case Online Free",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: {

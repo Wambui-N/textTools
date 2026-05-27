@@ -7,7 +7,7 @@ const tool = toolsBySlug["sort-lines"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Sort Lines — Alphabetize Lists Online Free",
+  title: "Sort Lines - Alphabetize Lists Online Free",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: { title: `${tool.ogTitle} | ShelfCue`, description: tool.metaDescription, url: `${SITE_URL}/tools/sort-lines`, siteName: "ShelfCue", images: [{ url: "/og/default.png", width: 1200, height: 630 }], type: "website" },

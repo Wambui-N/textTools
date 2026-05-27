@@ -28,11 +28,11 @@ type FilterCategory = typeof FILTER_CATEGORIES[number];
 
 // Problem-first descriptions for the homepage grid
 const PROBLEM_DESCRIPTIONS: Record<string, string> = {
-  "word-counter": "Stop guessing your word count — paste any text and get words, characters, sentences, and reading time instantly.",
+  "word-counter": "Stop guessing your word count. Paste any text and get words, characters, sentences, and reading time instantly.",
   "character-counter": "Hitting Twitter's 280-char limit or writing a meta description? See exactly where you stand with live platform bars.",
   "case-converter": "Pasted text in the wrong case? Convert between UPPER, lower, Title, camelCase, snake_case, and 4 more formats in one click.",
   "remove-duplicate-lines": "Merged two lists and now have repeats? Remove every duplicate line instantly while keeping the original order.",
-  "sort-lines": "Lists out of order? Sort alphabetically, by length, in reverse, or shuffle randomly — with case and whitespace controls.",
+  "sort-lines": "Lists out of order? Sort alphabetically, by length, in reverse, or shuffle randomly, with case and whitespace controls.",
   "remove-extra-spaces": "Text copied from a PDF or Word doc full of double spaces? Clean all whitespace issues in one pass.",
   "remove-line-breaks": "Copied from a PDF and every line ends with a break? Join lines into clean paragraphs in seconds.",
   "find-and-replace": "Need to bulk-replace a word or phrase across a long document? Find every instance and replace them all at once.",

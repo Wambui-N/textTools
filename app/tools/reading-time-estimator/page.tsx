@@ -7,7 +7,7 @@ const tool = toolsBySlug["reading-time-estimator"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Reading Time Estimator — Calculate Reading Time Free",
+  title: "Reading Time Estimator - Calculate Reading Time Free",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: { title: `${tool.ogTitle} | ShelfCue`, description: tool.metaDescription, url: `${SITE_URL}/tools/reading-time-estimator`, siteName: "ShelfCue", images: [{ url: "/og/default.png", width: 1200, height: 630 }], type: "website" },

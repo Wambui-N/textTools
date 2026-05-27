@@ -7,7 +7,7 @@ const tool = toolsBySlug["find-and-replace"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Find and Replace Text Online — Free Text Editor Tool",
+  title: "Find and Replace Text Online - Free Text Editor Tool",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: { title: `${tool.ogTitle} | ShelfCue`, description: tool.metaDescription, url: `${SITE_URL}/tools/find-and-replace`, siteName: "ShelfCue", images: [{ url: "/og/default.png", width: 1200, height: 630 }], type: "website" },
@@ -28,7 +28,7 @@ export default function FindAndReplacePage() {
       useCases={tool.useCases}
       howToUse={[
         "Paste your text into the main text area.",
-        "Type the word or phrase you want to find in the 'Find' field — matches are counted in real time.",
+        "Type the word or phrase you want to find in the 'Find' field. Matches are counted in real time.",
         "Type the replacement text in the 'Replace with' field (leave empty to delete matches).",
         "Toggle 'Case sensitive' or 'Whole word only' as needed.",
         "Click 'Replace All' to make all replacements at once.",

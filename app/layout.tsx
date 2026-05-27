@@ -11,7 +11,7 @@ const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-3860655
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "ShelfCue — Free Online Text Tools",
+    default: "ShelfCue - Free Online Text Tools",
     template: "%s | ShelfCue",
   },
   description:

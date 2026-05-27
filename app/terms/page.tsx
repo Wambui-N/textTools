@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — ShelfCue",
+  title: "Terms of Service - ShelfCue",
   description: "ShelfCue Terms of Service. Free text tools with no warranties. Your text is never stored.",
   alternates: { canonical: `${SITE_URL}/terms` },
 };

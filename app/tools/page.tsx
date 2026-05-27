@@ -4,7 +4,7 @@ import { ToolsIndex } from "@/components/tools/ToolsIndex";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "All Text Tools — Free Online Text Processing Tools",
+  title: "All Text Tools - Free Online Text Processing Tools",
   description: "Browse all 15 free online text tools: word counter, character counter, case converter, find and replace, text diff checker, and more. No signup required.",
   openGraph: {
     title: "All Text Tools | ShelfCue",

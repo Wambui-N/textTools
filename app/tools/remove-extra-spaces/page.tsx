@@ -7,7 +7,7 @@ const tool = toolsBySlug["remove-extra-spaces"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Remove Extra Spaces — Clean Whitespace from Text Free",
+  title: "Remove Extra Spaces - Clean Whitespace from Text Free",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: { title: `${tool.ogTitle} | ShelfCue`, description: tool.metaDescription, url: `${SITE_URL}/tools/remove-extra-spaces`, siteName: "ShelfCue", images: [{ url: "/og/default.png", width: 1200, height: 630 }], type: "website" },

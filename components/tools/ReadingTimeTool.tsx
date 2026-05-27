@@ -49,7 +49,7 @@ export function ReadingTimeTool() {
           className="rounded-lg px-4 py-3 text-sm"
           style={{ backgroundColor: "var(--accent-subtle)", color: "var(--accent)" }}
         >
-          This text takes about <strong>{formatTime(result.avgMinutes)}</strong> to read —
+          This text takes about <strong>{formatTime(result.avgMinutes)}</strong> to read,
           similar to a <strong>{result.contentType}</strong>.
         </div>
       )}

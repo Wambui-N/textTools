@@ -7,7 +7,7 @@ const tool = toolsBySlug["character-counter"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Character Counter — Count Characters Online Free",
+  title: "Character Counter - Count Characters Online Free",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: {

@@ -7,7 +7,7 @@ const tool = toolsBySlug["text-diff-checker"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Text Diff Checker — Compare Two Texts Online Free",
+  title: "Text Diff Checker - Compare Two Texts Online Free",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: { title: `${tool.ogTitle} | ShelfCue`, description: tool.metaDescription, url: `${SITE_URL}/tools/text-diff-checker`, siteName: "ShelfCue", images: [{ url: "/og/default.png", width: 1200, height: 630 }], type: "website" },
@@ -38,7 +38,7 @@ export default function TextDiffPage() {
         "Line-level diff mode for comparing documents line by line",
         "Additions highlighted in green, deletions in red with strikethrough",
         "Count of additions, deletions, and unchanged sections",
-        "All comparison runs locally — your text is never transmitted",
+        "All comparison runs locally. Your text is never transmitted",
       ]}
     >
       <TextDiffTool />

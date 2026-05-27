@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ShelfCue",
+  title: "Privacy Policy - ShelfCue",
   description: "ShelfCue Privacy Policy. We do not collect or store your text. Learn what data we do collect and how it is used.",
   alternates: { canonical: `${SITE_URL}/privacy` },
 };

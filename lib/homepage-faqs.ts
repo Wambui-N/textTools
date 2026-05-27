@@ -5,11 +5,11 @@ export const HOMEPAGE_FAQS = [
   },
   {
     q: "Is ShelfCue really free?",
-    a: "Yes — all 15 tools are completely free with no hidden limits, premium tiers, or paywalls. ShelfCue is supported by Google AdSense advertising. There is no free trial that expires, no feature locked behind a subscription, and no limit on how much text you can process.",
+    a: "Yes. All 15 tools are completely free with no hidden limits, premium tiers, or paywalls. ShelfCue is supported by Google AdSense advertising. There is no free trial that expires, no feature locked behind a subscription, and no limit on how much text you can process.",
   },
   {
     q: "How is my privacy protected when I use ShelfCue?",
-    a: "Every ShelfCue tool runs entirely in your browser using JavaScript. The text you paste or type is never transmitted to any server, never stored in a database, and never logged. You can disconnect from the internet and the tools still work perfectly — because nothing leaves your device.",
+    a: "Every ShelfCue tool runs entirely in your browser using JavaScript. The text you paste or type is never transmitted to any server, never stored in a database, and never logged. You can disconnect from the internet and the tools still work perfectly, because nothing leaves your device.",
   },
   {
     q: "Do I need to create an account to use ShelfCue?",
@@ -17,6 +17,6 @@ export const HOMEPAGE_FAQS = [
   },
   {
     q: "Can I use ShelfCue on my phone or tablet?",
-    a: "Yes. ShelfCue is fully responsive and works on any device with a modern web browser — iPhone, Android, iPad, or desktop. All tools are touch-friendly and the layout adapts to smaller screens. No app download is required.",
+    a: "Yes. ShelfCue is fully responsive and works on any device with a modern web browser: iPhone, Android, iPad, or desktop. All tools are touch-friendly and the layout adapts to smaller screens. No app download is required.",
   },
 ];

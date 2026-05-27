@@ -7,7 +7,7 @@ const tool = toolsBySlug["extract-emails"];
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
 
 export const metadata: Metadata = {
-  title: "Extract Emails from Text — Free Email Extractor Tool",
+  title: "Extract Emails from Text - Free Email Extractor Tool",
   description: tool.metaDescription,
   keywords: tool.keywords,
   openGraph: { title: `${tool.ogTitle} | ShelfCue`, description: tool.metaDescription, url: `${SITE_URL}/tools/extract-emails`, siteName: "ShelfCue", images: [{ url: "/og/default.png", width: 1200, height: 630 }], type: "website" },
