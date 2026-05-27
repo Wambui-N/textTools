@@ -22,7 +22,7 @@ export default function AboutPage() {
           ShelfCue is a collection of free, fast text tools designed for writers, developers, marketers, students, and anyone who works with text every day. Every tool on this site is available at no cost and requires no account, no sign-up, and no personal information.
         </p>
         <p>
-          The goal is simple: when you need to count words, clean up copied text, convert text case, or compare two documents, you should be able to do it in seconds, without ads that obscure the tool, without being pushed to sign up for a subscription, and without wondering whether your text is being stored somewhere.
+          The goal is simple: when you need to count words, clean up copied text, convert text case, or compare two documents, you should be able to do it in seconds, without being pushed to sign up for a subscription, and without wondering whether your text is being stored somewhere.
         </p>
         <h2
           className="text-xl font-semibold pt-2"
@@ -34,7 +34,7 @@ export default function AboutPage() {
           Every ShelfCue tool processes text entirely in your browser using JavaScript. Nothing you type or paste is ever sent to a server. We do not log your text, we do not store it, and we do not share it. You can verify this by opening your browser&apos;s developer tools and checking the network tab while using any tool. You will see no requests containing your text.
         </p>
         <p>
-          The only data we collect is standard analytics through Google Analytics 4 (page views, session duration, tool usage events). We do not associate this data with your text content. See our <a href="/privacy" className="underline" style={{ color: "var(--accent)" }}>Privacy Policy</a> for full details.
+          With your consent, we use Google Analytics 4 (page views, session duration, tool usage events) and Google AdSense (advertising). We do not associate any of this data with your text content. See our <a href="/privacy" className="underline" style={{ color: "var(--accent)" }}>Privacy Policy</a> for full details.
         </p>
         <h2
           className="text-xl font-semibold pt-2"

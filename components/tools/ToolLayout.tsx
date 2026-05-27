@@ -4,6 +4,7 @@ import { RelatedTools } from "./RelatedTools";
 import { AdBanner } from "@/components/ads/AdBanner";
 import { AdSidebar } from "@/components/ads/AdSidebar";
 import { AdUnit } from "@/components/ads/AdUnit";
+import { AD_SLOT_BELOW } from "@/lib/adsense";
 import { ToolSchema } from "@/components/seo/ToolSchema";
 import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import { FAQSchema } from "@/components/seo/FAQSchema";
@@ -42,7 +43,7 @@ export function ToolLayout({
   useCases,
   children,
 }: ToolLayoutProps) {
-  const belowSlot = process.env.NEXT_PUBLIC_AD_SLOT_BELOW || "";
+  const belowSlot = AD_SLOT_BELOW;
 
   return (
     <>

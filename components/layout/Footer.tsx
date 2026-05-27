@@ -29,6 +29,12 @@ export function Footer() {
         <p className="mt-4 text-center text-xs" style={{ color: "var(--text-muted)" }}>
           © {new Date().getFullYear()} ShelfCue. All tools are free. No account required. Your text never leaves your browser.
         </p>
+        <p className="mt-2 text-center text-xs" style={{ color: "var(--text-muted)" }}>
+          We use cookies for analytics and advertising.{" "}
+          <a href="/privacy" className="underline hover:opacity-80" style={{ color: "var(--text-muted)" }}>
+            Privacy Policy
+          </a>
+        </p>
       </div>
     </footer>
   );

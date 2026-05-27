@@ -1,6 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { ADSENSE_CLIENT } from "@/lib/adsense";
+import { hasMarketingConsent } from "@/lib/consent";
 
 declare global {
   interface Window {
@@ -16,18 +18,22 @@ interface AdUnitProps {
 }
 
 export function AdUnit({ slot, format = "auto", className = "", minHeight = 90 }: AdUnitProps) {
-  const client = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+  const [consented, setConsented] = useState(false);
 
   useEffect(() => {
-    if (!client) return;
+    setConsented(hasMarketingConsent());
+  }, []);
+
+  useEffect(() => {
+    if (!consented || !ADSENSE_CLIENT || !slot) return;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch {
       // AdSense not loaded yet
     }
-  }, [client]);
+  }, [consented, slot]);
 
-  if (!client || !slot) return null;
+  if (!consented || !ADSENSE_CLIENT || !slot) return null;
 
   return (
     <div className={className} style={{ minHeight }}>
@@ -40,7 +46,7 @@ export function AdUnit({ slot, format = "auto", className = "", minHeight = 90 }
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
-        data-ad-client={client}
+        data-ad-client={ADSENSE_CLIENT}
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"

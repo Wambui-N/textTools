@@ -9,7 +9,7 @@ export const HOMEPAGE_FAQS = [
   },
   {
     q: "How is my privacy protected when I use ShelfCue?",
-    a: "Every ShelfCue tool runs entirely in your browser using JavaScript. The text you paste or type is never transmitted to any server, never stored in a database, and never logged. You can disconnect from the internet and the tools still work perfectly, because nothing leaves your device.",
+    a: "Every ShelfCue tool runs entirely in your browser. The text you paste or type is never transmitted to any server, never stored, and never logged - only your device processes it. With your consent, we use Google Analytics to measure page visits and tool usage events (tool name and character count, not content), and Google AdSense to serve ads. You can reject non-essential cookies at any time. See our Privacy Policy for full details.",
   },
   {
     q: "Do I need to create an account to use ShelfCue?",

@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { CookieBanner } from "@/components/legal/CookieBanner";
+import { AdSenseLoader } from "@/components/ads/AdSenseLoader";
+import { GA_MEASUREMENT_ID, ADSENSE_PUBLISHER_ID } from "@/lib/legal";
 import "./globals.css";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://shelfcue.com";
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-5HB5WPKXNE";
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-3860655153966044";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -30,12 +31,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {ADSENSE_CLIENT && (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-            crossOrigin="anonymous"
-          />
+        {/* Google Consent Mode v2 — default all non-essential signals to denied
+            until the user accepts via the cookie banner. */}
+        {GA_MEASUREMENT_ID && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{
+  analytics_storage:'denied',
+  ad_storage:'denied',
+  ad_user_data:'denied',
+  ad_personalization:'denied',
+  wait_for_update:500
+});
+gtag('js',new Date());
+gtag('config','${GA_MEASUREMENT_ID}',{send_page_view:false});
+`.trim(),
+              }}
+            />
+          </>
         )}
       </head>
       <body>
@@ -45,17 +63,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
+          <CookieBanner />
         </ThemeProvider>
-        {GA_ID && (
-          <>
-            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`,
-              }}
-            />
-          </>
-        )}
+        {/* AdSense script is loaded client-side only when marketing consent is granted */}
+        <AdSenseLoader publisherId={ADSENSE_PUBLISHER_ID} />
       </body>
     </html>
   );

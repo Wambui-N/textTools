@@ -465,7 +465,7 @@ export default function HomePage() {
               The suite covers the most common text tasks: counting words and characters for platform limits and assignments, converting text case for code and headlines, cleaning up whitespace and line breaks from copy-pasted documents, sorting and deduplicating lists, finding and replacing text across long documents, comparing two versions of a text side by side, analysing word frequency for SEO and writing quality, and generating placeholder Lorem Ipsum text for design mockups.
             </p>
             <p>
-              All {tools.length} tools are permanently free. ShelfCue is supported by advertising. Open any tool, use it, and come back whenever you need it. No login. No paywall. No data collection beyond standard analytics.
+              All {tools.length} tools are permanently free. ShelfCue is supported by Google AdSense advertising. Open any tool, use it, and come back whenever you need it. No login. No paywall. Your text never leaves your browser.
             </p>
           </div>
         </div>
