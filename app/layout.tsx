@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className={fraunces.variable}>
-      <head>
+      <head suppressHydrationWarning>
         {/* Google Consent Mode v2 — default all non-essential signals to denied
             until the user accepts via the cookie banner. */}
         {GA_MEASUREMENT_ID && (
