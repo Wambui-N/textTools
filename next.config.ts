@@ -35,6 +35,16 @@ const nextConfig: NextConfig = {
         destination: "/terms",
         permanent: true,
       },
+      {
+        source: "/contact/",
+        destination: "/contact",
+        permanent: true,
+      },
+      {
+        source: "/updates/",
+        destination: "/updates",
+        permanent: true,
+      },
     ];
   },
 };

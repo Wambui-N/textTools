@@ -51,6 +51,13 @@ export function Header() {
           >
             About
           </Link>
+          <Link
+            href="/contact"
+            className="text-sm font-medium transition-colors hover:opacity-80"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            Contact
+          </Link>
 
           {mounted && (
             <Button

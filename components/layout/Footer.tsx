@@ -33,12 +33,18 @@ export function Footer() {
               clean text tools for everyday work
             </p>
           </div>
-          <nav className="flex items-center gap-6">
+          <nav className="flex flex-wrap items-center gap-x-6 gap-y-2">
             <Link href="/tools" className="text-xs hover:underline" style={{ color: "var(--text-muted)" }}>
               All Tools
             </Link>
             <Link href="/about" className="text-xs hover:underline" style={{ color: "var(--text-muted)" }}>
               About
+            </Link>
+            <Link href="/contact" className="text-xs hover:underline" style={{ color: "var(--text-muted)" }}>
+              Contact
+            </Link>
+            <Link href="/updates" className="text-xs hover:underline" style={{ color: "var(--text-muted)" }}>
+              Updates
             </Link>
             <Link href="/privacy" className="text-xs hover:underline" style={{ color: "var(--text-muted)" }}>
               Privacy
